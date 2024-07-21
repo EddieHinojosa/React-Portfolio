@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
 import './App.css';
 //imports components
 import Header from './components/header/Header';
@@ -8,13 +9,13 @@ import About from './components/about/About.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <div>
-      <Header />
-      <Home />
-      <About />
+      <main>
+        <Outlet />
+      </main>
     </div>
   )
 }
