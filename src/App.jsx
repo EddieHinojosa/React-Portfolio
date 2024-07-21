@@ -2,9 +2,8 @@ import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import './App.css';
 //imports components
-import Header from './components/header/Header';
-import Home from './components/home/Home.jsx';
-import About from './components/about/About.jsx';
+import Header from './components/header/Header.jsx';
+import Footer from './components/footer/Footer.jsx';
 //imports bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +16,7 @@ function App() {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </div>
   )
 }
