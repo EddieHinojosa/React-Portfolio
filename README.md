@@ -103,7 +103,7 @@
 
 ## Video Tour:
 
-.... you may see a pattern, if note... more to come
+.... you may see a pattern, if not... more to come
 
 
 
