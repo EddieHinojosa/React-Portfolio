@@ -2,6 +2,7 @@ import React from 'react';
 import './projects.css';
 import { Card, Button, Container, Row, Col} from 'react-bootstrap';
 import { LiaCocktailSolid } from "react-icons/lia";
+import videoSrc from '../../assets/Zozzledpreview.mov';
 
 
 
@@ -21,7 +22,9 @@ const Projects = () => {
 
                     {/* -------------------------The Mood Bar------------------------- */}
                     <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                    <video className="card-img-top" width="100%" height="auto" >
+    <source src={videoSrc} type="video/mp4" />
+    Your browser does not support the video tag.</video>
                         <Card.Body>
                             <Card.Title>The Mood Bar</Card.Title>
                             <Card.Text>
