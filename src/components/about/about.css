@@ -1,1 +1,17 @@
 
+/* src/components/AboutMe.css */
+#about-me img {
+    max-width: 100%;
+    height: auto;
+}
+
+#skillsCarousel .carousel-item img {
+    width: 100px;
+    height: 100px;
+}
+
+#skillsCarousel .carousel-control-prev-icon,
+#skillsCarousel .carousel-control-next-icon {
+    background-color: #333;
+    border-radius: 50%;
+}
