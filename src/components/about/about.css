@@ -1,17 +1,32 @@
-
-/* src/components/AboutMe.css */
 #about-me img {
     max-width: 100%;
     height: auto;
 }
 
-#skillsCarousel .carousel-item img {
-    width: 100px;
-    height: 100px;
+.skills-carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 0;
 }
 
-#skillsCarousel .carousel-control-prev-icon,
-#skillsCarousel .carousel-control-next-icon {
-    background-color: #333;
-    border-radius: 50%;
+.carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track img {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
