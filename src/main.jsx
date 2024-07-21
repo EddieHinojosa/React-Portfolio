@@ -8,8 +8,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import About from './components/about/About.jsx';
 import Contact from './components/contact/Contact.jsx';
 import Error from './components/error/Error.jsx';
-import Header from './components/header/Header.jsx';
-import Home from './components/header/Header.jsx';
+import Home from './components/home/Home.jsx';
 import Projects from './components/projects/Projects.jsx';
 
 

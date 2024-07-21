@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div>
+      <Header />
       <main>
         <Outlet />
       </main>
