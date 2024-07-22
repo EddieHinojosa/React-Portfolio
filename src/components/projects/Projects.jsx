@@ -2,7 +2,7 @@ import React from 'react';
 import './projects.css';
 import { Card, Button, Container, Row, Col} from 'react-bootstrap';
 import { LiaCocktailSolid } from "react-icons/lia";
-import videoSrc from '../../assets/Zozzledpreview.mov';
+import videoSrc from '../../assets/ZozzledPreview.mp4';
 
 
 
@@ -22,7 +22,7 @@ const Projects = () => {
 
                     {/* -------------------------The Mood Bar------------------------- */}
                     <Card >
-                    <video className="card-img-top" width="100%" height="auto" >
+                    <video className="card-img-top" loop width="100%" height="auto" >
     <source src={videoSrc} type="video/mp4" />
     Your browser does not support the video tag.</video>
                         <Card.Body>
@@ -38,7 +38,9 @@ const Projects = () => {
 
                     {/* -------------------------zozzled------------------------- */}
                     <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                    <video className="card-img-top" width="100%" height="auto" loop >
+    <source src={videoSrc} type="video/mp4" />
+    Your browser does not support the video tag.</video>
                         <Card.Body>
                             <Card.Title>Zozzled</Card.Title>
                             <Card.Text>
