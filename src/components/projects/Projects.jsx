@@ -22,13 +22,12 @@ const Projects = () => {
 
                     {/* -------------------------The Mood Bar------------------------- */}
                     <Card >
-                    <video className="card-img-top" loop width="100%" height="auto" >
-    <source src={videoSrc} type="video/mp4" />
-    Your browser does not support the video tag.</video>
+                    <video className="card-img-top"  width="100%" height="auto" autoPlay muted playsInline loop >
+                    <source src={videoSrc} type="video/mp4" />Your browser does not support the video tag.</video>
                         <Card.Body>
                             <Card.Title>The Mood Bar</Card.Title>
                             <Card.Text>
-                            A cocktail generator based off your chosen mood and preferred spirit type. <LiaCocktailSolid />, and some advice from your digital bartender.
+                            A cocktail generator based off your chosen mood and preferred spirit type. <LiaCocktailSolid />
                             </Card.Text>
                             <Button variant="primary" onClick= {() => handleClick('https://eddiehinojosa.github.io/TheMoodBar')}>visit 'The Mood Bar'</Button>
                         </Card.Body>
@@ -38,9 +37,8 @@ const Projects = () => {
 
                     {/* -------------------------zozzled------------------------- */}
                     <Card >
-                    <video className="card-img-top" width="100%" height="auto" loop >
-    <source src={videoSrc} type="video/mp4" />
-    Your browser does not support the video tag.</video>
+                    <video className="card-img-top"  width="100%" height="auto" autoPlay muted playsInline loop >
+                    <source src={videoSrc} type="video/mp4" />Your browser does not support the video tag.</video>
                         <Card.Body>
                             <Card.Title>Zozzled</Card.Title>
                             <Card.Text>
