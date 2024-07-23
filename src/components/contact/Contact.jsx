@@ -5,9 +5,8 @@ import './contact.css';
 const Contact = () => {
     return (
         <div>
-            <h2>Contact</h2>
-            <p>Phone: 786-294-1939</p>
-            <p>Email: Eddie.Hinojosa@proton.me</p>
+            {/* <p>Email: Eddie.Hinojosa@proton.me</p> */}
+            <h2>email contact input coming soon </h2>
         </div>
     )
 }

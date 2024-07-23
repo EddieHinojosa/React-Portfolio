@@ -2,8 +2,8 @@ import React from 'react';
 import './projects.css';
 import { Card, Button, Container, Row, Col} from 'react-bootstrap';
 import { LiaCocktailSolid } from "react-icons/lia";
-import videoSrc from '../../assets/ZozzledPreview.mp4';
-
+import videoSrcZozzled from '../../assets/ZozzledPreview.mp4';
+import videoSrcMoodBar from '../../assets/MoodBarPreview.mp4';
 
 
 const Projects = () => {
@@ -23,7 +23,7 @@ const Projects = () => {
                     {/* -------------------------The Mood Bar------------------------- */}
                     <Card >
                     <video className="card-img-top"  width="100%" height="auto" autoPlay muted playsInline loop >
-                    <source src={videoSrc} type="video/mp4" />Your browser does not support the video tag.</video>
+                    <source src={videoSrcMoodBar} type="video/mp4" />Your browser does not support the video tag.</video>
                         <Card.Body>
                             <Card.Title>The Mood Bar</Card.Title>
                             <Card.Text>
@@ -38,7 +38,7 @@ const Projects = () => {
                     {/* -------------------------zozzled------------------------- */}
                     <Card >
                     <video className="card-img-top"  width="100%" height="auto" autoPlay muted playsInline loop >
-                    <source src={videoSrc} type="video/mp4" />Your browser does not support the video tag.</video>
+                    <source src={videoSrcZozzled} type="video/mp4" />Your browser does not support the video tag.</video>
                         <Card.Body>
                             <Card.Title>Zozzled</Card.Title>
                             <Card.Text>
@@ -49,50 +49,16 @@ const Projects = () => {
                     </Card>
                 </Col>
         </Row>
-        <Row className='row2'>
-                <Col md={4}>
 
-                    {/* -------------------------another project------------------------- */}
-                    <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={4}>
 
-                    {/* -------------------------another project------------------------- */}
-                    <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={4}>
 
-                    {/* -------------------------another project------------------------- */}
-                    <Card >
-                        <Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
+
+        <Row>
+            {/* more projects soon */}
         </Row>
+
+
+        
         </Container >
         </div>
   )

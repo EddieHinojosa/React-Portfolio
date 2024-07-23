@@ -4,10 +4,11 @@ import "./home.css";
 const Home = () => {
     return (
         <div className="jumbotron">
-            <h1 className="display-4">Hello, world!</h1>
+            <h1 className="display-3">Hello, world!</h1>
+            <h2 className="display-6">I'm Eddie Hinojosa</h2>
+            
                 <p className="lead">
-                    This is a simple hero unit, a simple jumbotron-style component for
-                    calling extra attention to featured content or information.
+                    Welcome to my Portfolio.
                 </p>
                 <hr className="my-4" />
                 <p>
