@@ -24,13 +24,23 @@ const About = () => {
                     <img src={profileImage} alt="Profile" className="img-fluid rounded-circle" />
                 </div>
                 <div className="col-md-8">
-                    <h2>About Me</h2>
-                    <p>My name is Eddie Hinojosa, as of 2024 I am a Full-Stack Developer, my curiosity of  “how things workd” lead me on wanting to understand how website create works.
-I took a coding bootcamp beginning of 2024 associated with UCF/EdX. Leading me to learn how to read and write code from HTML all the way to using React.js.
-My previous work experience has been in advance technical and hardware/software support regarding portable telecommunication devices from 2016-2022,  and currently im an operation specialist at a brokerage firm.
-By desire to want to learn to fix complex problems lead me to becoming a Full-Stack Developer.
-Collaborating with my classmates and co-workers has always driven to say “how can we improve this”, and with the ever changing in technological advancements, this was the perfect opportunity to dive head first into this coding world.</p>
-<p>—— generic unthought template, reworked about me page and mentioend blender/3d design work—-</p>
+                    <h2>My name is Eddie Hinojosa</h2 >
+                    <h2>Full-Stack Developer</h2>
+                    <p> 
+                        I am a Full-Stack Developer with a background in technical support and operations.
+                        I have a foundation in HTML, CSS, JavaScript, MongoDB, Node.js, React, and more.
+                        My goal is to melt my technical support background with my new coding skills to create a seamless user experience.
+                    </p> 
+                        
+                    <p>
+                        My previous work experience has been in advance technical and hardware/software support regarding portable telecommunication devices from 2016-2022,  
+                        and currently im an operation specialist at a brokerage firm.
+                        My desire to want to learn to fix complex problems lead me to becoming a Full-Stack Developer.
+                    </p>
+                    
+                    <p>
+                        I have always been a problem solver, and I have always been interested in how things work and what makes things tick.
+                    </p>
                     
                 </div>
             </div>
