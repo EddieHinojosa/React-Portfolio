@@ -52,7 +52,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#how-it-works">How It Works</a></li>
-        <li><a href="#features">Features</a></li>
+        <!-- <li><a href="#features">Features</a></li> -->
         <li><a href="#video-tour">Video Tour</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
@@ -79,24 +79,16 @@
 
 
 
-<p>Welcome to My Portfolio.....more to come...</p>
+<p>Welcome to My Portfolio, this will be an ever-changing portfolio as I will be constantly adding new projects and changing the way I present my body of work to potential employers, and other folks with similar hobbies and interest for the opportunity to collaborate and continue growing my coding knowledge. </p>
 
 
 ## How It Works:
 
-<p>1. I make portfolio </p>
-<p>2. you see portfolio<br> 
-<p>3. i panic </p>
-<p>4. you hire </p>
-
-## Features:
-
-...more to come
+<p>This repo will include myt code as well as a quick guide on how to nagivate through the site posted below </p>
 
 
-<h4><strong>Favs:</strong><br></h4>
-<p>fav stuff...  more to come
-</p>
+<!-- ## Features: -->
+
 
 
 
