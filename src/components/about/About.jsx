@@ -42,6 +42,10 @@ const About = () => {
                         I have always been a problem solver, and I have always been interested in how things work and what makes things tick.
                     </p>
                     
+                    <p>
+                        and i like to dabble in 3D modeling and animation in my free time.
+                    </p>
+                    
                 </div>
             </div>
             <div className="row mt-4">
