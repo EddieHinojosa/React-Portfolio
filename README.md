@@ -185,7 +185,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 * Repo Link: [https://github.com/EddieHinojosa/React-Portfolio](https://github.com/EddieHinojosa/React-Portfolio)
 
-* Live link via ..... well eventually through [netlify.com](netlify.com)
+* Live link via Netlify.com [https://eddiehinojosa-portfolio.netlify.app](https://eddiehinojosa-portfolio.netlify.app)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
