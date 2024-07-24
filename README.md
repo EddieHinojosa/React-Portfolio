@@ -84,7 +84,7 @@
 
 ## How It Works:
 
-<p>This repo will include myt code as well as a quick guide on how to nagivate through the site posted below </p>
+<p>This repo will include my code as well as a quick guide on how to nagivate through the site posted below </p>
 
 
 <!-- ## Features: -->
@@ -152,7 +152,7 @@ npm install
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If our project sparks your interest, please welcome yourself to contributing to our project. An open source community contributing is what builds inspiration and creativity. Any contributions you may make are greatly appreciated.
+If my project sparks your interest, please welcome yourself to contributing to our project. An open source community contributing is what builds inspiration and creativity. Any contributions you may make are greatly appreciated.
 
 If you have a suggestion that would help make this better, feel free to fork the repo and create a pull request. You can also simply open an issue with the tag "SuggestionX".
 Please do not forget to give the project a star! Thanks again!
